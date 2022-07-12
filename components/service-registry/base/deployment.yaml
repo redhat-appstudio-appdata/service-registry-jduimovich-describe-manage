@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: service-registry
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jduimovich-service-registry-4d1782b2b49e279f1bca26cb7b8cf9f5e07c8857
+      - image: quay.io/redhat-appstudio/user-workload:jduimovich-service-registry
         imagePullPolicy: Always
         name: container-image
         resources: {}
